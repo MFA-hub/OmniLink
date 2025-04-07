@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Mencegah sniffing konten -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+  <!-- Mencegah iframe dari luar (Clickjacking protection) -->
+  <meta http-equiv="X-Frame-Options" content="DENY">
+
+  <!-- Menyembunyikan referrer -->
+  <meta name="referrer" content="no-referrer">
+
+  <!-- Content Security Policy (CSP) -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+    script-src 'self' https://cdnjs.cloudflare.com;
+    font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+    img-src 'self' data: https:;
+    connect-src 'self';
+    object-src 'none';
+    ">
+
+  <title>Benang Lawas</title>
+  <meta name="description" content="Temukan semua link penting Benang Lawas – thrift, outdoor gear & streetwear.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <div class="avatar-glow">
+        <img src="img/benang logo.png" alt="Foto Profil Benang Lawas" class="avatar" loading="lazy">
+      </div>
+      <h1 class="shop-name">Benang Lawas</h1>
+      <p class="tagline">Streetwear, Outdoor, & Thrifting Vibes</p>
+    </div>
+
+    <div class="links">
+      <div class="custom-card thrift-card one-bg">
+            <div class="overlay">
+              <h2>Thrift Pilihan</h2>
+              <p>Barang second original, condition 9/10</p>
+              <a href="https://shopee.co.id/benang.lawas" 
+                 class="btn" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                 Lihat Produk
+              </a>
+            </div>
+          </div>
+          
+          <div class="custom-card two-bg">
+            <div class="link-badge">NEW</div>
+            <div class="overlay">
+              <h2>Gear Outdoor</h2>
+              <p>Siap jelajah, tahan lama, cocok buat trip</p>
+              <a href="https://collshp.com/benang.lawas" 
+                 class="btn" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                 Lihat Produk
+              </a>
+            </div>
+          </div>
+
+          <div class="custom-card three-bg">
+            <div class="overlay">
+              <h2>Katalog</h2>
+              <p>Katalog Produk</p>
+              <a href="https://id.carousell.com/u/benang.lawas/" 
+                 class="btn" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                 Lihat Produk
+              </a>
+            </div>
+          </div>
+                    
+          <footer class="social-icons">
+            <a href="https://instagram.com/benanglawas" target="_blank" class="ig" aria-label="Instagram rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@benang.lawas?_t=ZS-8vKaWPU5EHZ&_r=1" class="tiktok" target="_blank" aria-label="TikTok rel="noopener noreferrer">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="#" class="wa" target="_blank" aria-label="WhatsApp rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </footer>
+          
+    </div>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
