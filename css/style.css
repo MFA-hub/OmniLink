@@ -264,25 +264,25 @@ body {
 
   /* Background image classes */
 .one-bg {
-  background-image: url('/img/ss.png');
+  background-image: url('img/ss.png');
   background-size: cover;
   background-position: center;
 }
 
 .two-bg {
-  background-image: url('../img/gear.jpeg');
+  background-image: url('img/gear.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 .thrift-bg {
-  background-image: url('../img/thrift.jpg');
+  background-image: url('img/thrift.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .three-bg {
-  background-image: url('../img/ct.png');
+  background-image: url('img/ct.png');
   background-size: cover;
   background-position: center;
 }
