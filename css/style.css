@@ -214,17 +214,21 @@ body {
   }
   
   .social-icons a {
-    font-size: 1.8rem;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: 0.3s ease;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  }
+  text-decoration: none; /* Hilangkan garis bawah */
+  border: none; /* Pastikan tidak ada border */
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2); /* Efek saat hover */
+}
 
   /* Instagram: Gradasi khas */
 .social-icons .ig {
