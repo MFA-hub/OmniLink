@@ -10,7 +10,7 @@ body {
   }
   
   .container {
-    /* background-image: url('/ecogear/img/gradasi.jpg'); */
+    /* background-image: url('img/gradasi.jpg'); */
     width: 100%;
     max-width: 420px;
     text-align: center;
