@@ -264,7 +264,7 @@ body {
 
   /* Background image classes */
 .one-bg {
-  background-image: url("../img/ss.png");
+  background-image: url('/img/ss.png');
   background-size: cover;
   background-position: center;
 }
